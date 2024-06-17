@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.order-list {
+  width: 50%;
+  padding: 10px;
+}
+
+.preview-container {
+  width: 50%;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.page {
+  position: relative;
+  width: 148mm;
+  height: 210mm;
+  padding: 10mm;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  background: url("img/warranty_general.jpg") no-repeat center center;
+  background-size: contain;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media print {
+  .page {
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: none;
+    page-break-after: always;
+  }
+  .print-button,
+  .order-list {
+    display: none;
+  }
+}
+
+.barcode {
+  text-align: center;
+}
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+} */
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 20mm);
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #000;
+} */
+
+.p1 {
+  margin-top: 41px;
+  margin-left: 150px;
+  font-size: 24px;
+  font-weight: bolder;'
+}
+
+.p2 {
+  margin-top: -25px;
+  margin-left: 150px;
+  font-size: 12px;
+  font-weight: bolder;'
+}
+
+.print-button {
+  margin-left: 20px;
+}
+
+.pb1 {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
