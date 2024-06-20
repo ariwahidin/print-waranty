@@ -115,10 +115,21 @@ $generator = new BarcodeGeneratorPNG();
                         <img src="data:image/png;base64,${barcode}" alt="Barcode">
                         <p class="pb1">barcode text</p>
                     </div>
-                    <p class="p1">ItemName2</p>
-                    <p class="p2">ItemCode</p>
-                    <p style="font-size:24px; padding-left:150px; padding-top:100px; font-weight:bold"><span>CneeName</span><br><span style="font-size:12px;margin-top:-40px">CneeName</span></p>
-                    <p style="font-size:12px; padding-left:170px; padding-top:70px; font-weight:bold"><span>Rev.ShipDate</span>-<span style="">CneeCode</span><span style="padding-left:50px;">No.Reg:Msitem.Accesory8</span></p>
+                    <p class="p1">Paragraf1</p>
+                    <p class="p2">Paragraf2</p>
+                    <p class="p3">Paragraf3</p>
+                    <p class="p4">Paragraf4</p>
+                    <p class="p5">Paragraf5</p>
+
+                    <div class="barcode2">
+                        <img src="data:image/png;base64,${barcode}" alt="Barcode">
+                        <p class="pb2">barcode text</p>
+                    </div>
+                    <p class="p6">Paragraf6</p>
+                    <p class="p7">Paragraf7</p>
+                    <p class="p8">Paragraf8</p>
+                    <p class="p9">Paragraf9</p>
+                    <p class="p10">Paragraf10</p>
                 </div>
             `;
             }).join('');

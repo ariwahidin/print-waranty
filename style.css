@@ -16,14 +16,18 @@ body {
   height: 100vh;
 }
 
+.barcode {
+  padding-top: 1mm;
+}
+
 .page {
   position: relative;
   width: 148mm;
   height: 210mm;
-  padding: 10mm;
+  padding: 5mm !important;
   margin-bottom: 20px;
   border: 1px solid #000;
-  background: url("img/warranty_general.jpg") no-repeat center center;
+  /* background: url("img/warranty_general.jpg") no-repeat center center; */
   background-size: contain;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,10 +36,11 @@ body {
   .page {
     width: auto;
     height: auto;
-    margin: 0;
+    margin-top: 3px;
     border: none;
     page-break-after: always;
   }
+
   .print-button,
   .order-list {
     display: none;
@@ -43,7 +48,8 @@ body {
 }
 
 .barcode {
-  text-align: center;
+  padding-left: 25mm;
+  /* text-align: center; */
 }
 
 /* table {
@@ -69,17 +75,33 @@ td {
 } */
 
 .p1 {
-  margin-top: 41px;
-  margin-left: 150px;
-  font-size: 24px;
-  font-weight: bolder;'
+  margin-top: 5mm;
+  margin-left: 30mm;
+  font-size: 16px;
 }
 
 .p2 {
-  margin-top: -25px;
-  margin-left: 150px;
-  font-size: 12px;
-  font-weight: bolder;'
+  margin-top: -20px;
+  margin-left: 10mm;
+  font-size: 10px;
+}
+
+.p3 {
+  margin-top: 30mm;
+  margin-left: 30mm;
+  font-size: 16px;
+}
+
+.p4 {
+  margin-top: 30mm;
+  margin-left: 30mm;
+  font-size: 10px;
+}
+
+.p5 {
+  margin-top: -5mm;
+  margin-left: 110mm;
+  font-size: 10px;
 }
 
 .print-button {
@@ -88,6 +110,46 @@ td {
 
 .pb1 {
   margin-top: 0px;
+  margin-left: 25mm;
   font-size: 16px;
-  font-weight: bold;
+}
+
+.barcode2 {
+  margin-left: 25mm;
+  margin-top: 12mm;
+}
+
+.pb2 {
+  margin-top: 0mm;
+  margin-left: 27mm;
+}
+
+.p6 {
+  margin-top: -8mm;
+  margin-left: 10mm;
+  font-size: 12px;
+}
+
+.p7 {
+  margin-top: 0mm;
+  margin-left: 30mm;
+  font-size: 16px;
+}
+
+.p8 {
+  margin-top: -3mm;
+  margin-left: 30mm;
+  font-size: 16px;
+}
+
+.p9 {
+  margin-top: -20mm;
+  margin-left: 110mm;
+  font-size: 10px;
+}
+
+.p10 {
+  margin-top: 25mm;
+  margin-left: 110mm;
+  font-size: 10px;
 }
